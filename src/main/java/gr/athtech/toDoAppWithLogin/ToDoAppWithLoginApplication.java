@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class ToDoAppWithLoginApplication {
-
+    // This is a login application 
     private static boolean firstTime = true;
-
+    
     public static void main(String[] args) {
         SpringApplication.run(ToDoAppWithLoginApplication.class, args);
     }
